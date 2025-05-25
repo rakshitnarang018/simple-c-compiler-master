@@ -161,7 +161,7 @@ def main():
     ir = read_ir("output/output.txt")
     arm_code = generate_arm(ir)
     write_arm("armv8_output.s", arm_code)
-    print("✅ ARMv8 code written to armv8_output.s.")
+    print("ARMv8 code written to armv8_output.s.")
 
 
 if __name__ == "__main__":
